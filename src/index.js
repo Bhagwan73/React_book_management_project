@@ -1,12 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from "./Componant"
-import Allroute from './routes';
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-    <Allroute/>
-  </React.StrictMode>
-);
+import App from "./App";
 
+import ReactDOM from "react-dom/client";
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render( <App/>);
